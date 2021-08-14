@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+#start-game {
+  font-size: 1rem;
+  margin:  5%;
+  color: #ff0000;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.endGame {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.saul-says-group { 
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slices {
+  width: 10.5em;
+  height: 10.5em;
+  border-width: 0.1em;
+  border-color: #000;
+  border-style: solid;
+  border-radius: 50px;
+}
+
+#red {
+  background-color: rgb(255, 0, 0);
+}
+#yellow {
+  background-color: rgb(0, 26, 255);
+} 
+#blue {
+  background-color: rgb(255, 230, 0);
+}
+#green {
+  background-color: rgb(30, 255, 0);
+}
+
